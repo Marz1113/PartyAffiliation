@@ -5,11 +5,11 @@ public class Main
     public static void main(String[] args)
     {
         String partyAffil = "";
-        Scanner is = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
 
         System.out.print("Enter your party affiliation [D, R, I]: ");
-        partyAffil = is.nextLine();
+        partyAffil = in.nextLine();
 
 
 
